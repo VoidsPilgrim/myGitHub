@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+	<head>
+		<title> Formulário </title>
+		<meta charset="utf-8">
+		<meta name="description" content="Audio em html">
+		<meta name="keyword" content="HTML,HTML_AUDIO,CSS3">
+		<meta name="author" content="Hilbert">
+	</head>
+
+	<body>
+		<fieldset>
+		<legend> Informações Pessoais</legend>
+		<form action="video.html" method="POST">
+			Nome: <br>
+			<input type="text" name="nome" required autocomplete="off" autofocus maxlength="5" ></br>
+			Email: <br>
+			<input type="text" name="Email" required placeholder="seuemail@gmail.com" autocomplete="on"></br>
+			Time:<br>
+			<input type="radio" name="Time" value="Vasco" checked=""> Vasco</br>
+			<input type="radio" name="Time" value="Botafogo"> Botafogo</br>
+			<input type="radio" name="Time" value="Fluminense"> Fluminense</br>
+			<input type="radio" name="Time" value="Flamengo"> Flamengo</br>
+			Cores: <br>
+			<input type="checkbox" name="Cores" value="Branco"> Branco</br>
+			<input type="checkbox" name="Cores" value="Preto"> Preto</br>
+			<input type="checkbox" name="Cores" value="Verde"> Verde</br>
+			Quantidade: <br>
+			<input type="number" name="Quantidade" min="0" max="500"></br>
+			<input type="range" name="Quantidade" min="0" max="500"></br>
+			Cor:<br>
+			<input type="color" name="Cor"></br>
+			Senha: <br>
+			<input type="password" name="senha" required></br>
+			<input type="submit" name="btn-enviar" value="Enviar">
+		</form>
+		</fieldset>
+	</body>
+</html>
